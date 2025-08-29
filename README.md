@@ -28,8 +28,8 @@ This project involves:
 
 Everything is for Free!
 - **[Datasets](datasets/):** Access to the project dataset (csv files).
-- **[SQL Server Express]:** Lightweight server for hosting your SQL database.
-- **[SQL Server Management Studio (SSMS)]:** GUI for managing and interacting with databases.
+- **SQL Server Express:** Lightweight server for hosting your SQL database.
+- **SQL Server Management Studio (SSMS):** GUI for managing and interacting with databases.
 - **[Notion](https://www.notion.com/templates/sql-data-warehouse-project):** Get the Project Template from Notion
 
 ---
