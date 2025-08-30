@@ -116,7 +116,6 @@ insert into silver.crm_cust_info (
     cst_marital_status,
     cst_gndr,
     cst_create_date)
-
 select cst_id, cst_key, 
        trim(cst_firstname) as cst_firstname, 
        trim(cst_lastname) as cst_lastname, 
