@@ -1,5 +1,6 @@
 
 -- creating the fact tables
+go
 create view gold.fact_sales as
 select
 	sd.sls_ord_num as order_number,
@@ -16,7 +17,7 @@ left join gold.dim_products pr
 on sd.sls_prd_key = pr.product_number
 left join gold.dim_customers cu
 on sd.sls_cust_id = cu.customer_id
-
+go
 
 -- checking foreign key integrity
 select *
